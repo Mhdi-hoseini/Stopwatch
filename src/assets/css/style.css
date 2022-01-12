@@ -61,9 +61,17 @@ button {
   font-family: "Quicksand", sans-serif;
 }
 
+html {
+  height: fill-available;
+  height: -webkit-fill-available;
+}
+
 body {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
+  min-height: fill-available;
+  min-height: -webkit-fill-available;
+  overflow: hidden;
   display: flex;
   flex-flow: nowrap column;
   gap: 18px;

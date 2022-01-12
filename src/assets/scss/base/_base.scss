@@ -1,9 +1,16 @@
 * {
   font-family: $font-family;
 }
+html {
+  height: fill-available;
+  height: -webkit-fill-available;
+}
 body {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
+  min-height: fill-available;
+  min-height: -webkit-fill-available;
+  overflow: hidden;
   @include flex($dir: column, $justify-content: center, $align-items: center);
   background-color: $color--dark;
 }
