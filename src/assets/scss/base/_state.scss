@@ -1,0 +1,7 @@
+button:hover {
+  background-color: $color--secondary;
+}
+[disabled] {
+  color: $color--dark;
+  background-color: $color--secondary;
+}
