@@ -1,0 +1,30 @@
+// import google font if defined
+@if variable-exists(font-url--google) {
+  @import url($font-url--google);
+}
+
+// Implementaion typography
+@mixin typography($type) {
+  @if $type == 'H1' {
+    font-weight: $font-weight;
+    font-size: $font-size--title;
+  } @else if $type == 'BODY' {
+    font-weight: $font-weight;
+    font-size: $font-size--body;
+  }
+}
+
+// Implementaion flexbox
+@mixin flex(
+  $wrap: nowrap,
+  $dir: row,
+  $gap: 18px,
+  $justify-content: null,
+  $align-items: null
+) {
+  display: flex;
+  flex-flow: $wrap $dir;
+  gap: $gap;
+  justify-content: $justify-content;
+  align-items: $align-items;
+}

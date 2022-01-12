@@ -1,0 +1,7 @@
+%btn {
+  border: none;
+  border-radius: 10px;
+  transition: background-color 1s;
+  background-color: $color--primary;
+  @include typography($font-type--body);
+}

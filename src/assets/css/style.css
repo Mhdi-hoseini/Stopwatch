@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  margin: 0.67em 0;
+}
+
+ul {
+  list-style: none;
+  list-style-type: none;
+}
+
+button {
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  text-transform: none;
+}
+
+button {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+button {
+  border: none;
+  border-radius: 10px;
+  transition: background-color 1s;
+  background-color: #ffee32;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+* {
+  font-family: "Quicksand", sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-flow: nowrap column;
+  gap: 18px;
+  justify-content: center;
+  align-items: center;
+  background-color: #101010;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 2em;
+  color: #ffee32;
+}
+
+ul {
+  padding: 0.67em;
+  display: flex;
+  flex-flow: nowrap row;
+  gap: 18px;
+  justify-content: space-between;
+}
+
+button {
+  width: 100px;
+  padding: 8px 24px;
+}
+
+span {
+  font-weight: 600;
+  font-size: 1.2em;
+  color: #ffee32;
+}
+
+button:hover {
+  background-color: #33ff88;
+}
+
+[disabled] {
+  color: #101010;
+  background-color: #33ff88;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,26 @@
+* {
+  font-family: $font-family;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  @include flex($dir: column, $justify-content: center, $align-items: center);
+  background-color: $color--dark;
+}
+h1 {
+  @include typography($font-type--h1);
+  color: $color--primary;
+}
+ul {
+  padding: 0.67em;
+  @include flex($justify-content: space-between);
+}
+button {
+  width: 100px;
+  padding: 8px 24px;
+  @extend %btn;
+}
+span {
+  @include typography($font-type--body);
+  color: $color--primary;
+}
